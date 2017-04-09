@@ -1,0 +1,36 @@
+
+ .titulo {
+   background-color: lightblue;
+ }
+ .b
+   {
+   width: 48%;
+    float:left;
+    padding: 2% 1% 2% 1%;
+   }
+
+.a {
+  width: 48%;
+  float:left;
+  padding: 2% 1% 2% 1%;
+  
+}
+.imagen{
+  width="600"; 
+  height="400";
+}
+
+
+@media only screen and (max-width: 768px) {
+ [class*="a"] {
+ width: 100%;
+ }
+ [class*="b"] {
+ width: 100%;
+ }
+ [class*="imagen"] {
+ width: 100%;
+
+ }
+
+}
