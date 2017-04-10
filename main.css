@@ -13,8 +13,17 @@
   width: 48%;
   float:left;
   padding: 2% 1% 2% 1%;
-  
 }
+
+.w {
+  float: right;
+}
+
+.i {
+  float: left;
+
+}
+
 .imagen{
   width="600"; 
   height="400";
@@ -34,3 +43,4 @@
  }
 
 }
+
