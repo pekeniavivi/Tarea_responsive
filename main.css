@@ -1,19 +1,31 @@
 
  .titulo {
-   background-color: lightblue;
+   background-color: #cccccc;
+   font-family: 'BioRhyme', serif;
+   font-size: 3em;
  }
- .b
-   {
-   width: 48%;
-    float:left;
-    padding: 2% 1% 2% 1%;
-   }
 
-.a {
+ .subtitulo {
+   font-size: 0.7em;
+ }
+
+ .imagen{
+  width="600"; 
+  height="400";
+}
+
+ .a {
   width: 48%;
   float:left;
   padding: 2% 1% 2% 1%;
+  font-family: 'Source Sans Pro', sans-serif;
 }
+ .b {
+    width: 48%;
+    float:left;
+    padding: 2% 1% 2% 1%;
+    font-family: 'Source Sans Pro', sans-serif;
+   }
 
 .w {
   float: right;
@@ -21,14 +33,15 @@
 
 .i {
   float: left;
-
 }
 
-.imagen{
-  width="600"; 
-  height="400";
+.c {
+  font-size: 1.5rem;
 }
 
+.medida {
+  font-size: 16px;
+}
 
 @media only screen and (max-width: 768px) {
  [class*="a"] {
@@ -39,8 +52,9 @@
  }
  [class*="imagen"] {
  width: 100%;
-
  }
-
 }
+
+
+
 
